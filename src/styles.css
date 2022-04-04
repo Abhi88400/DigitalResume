@@ -1,0 +1,74 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.alert-success{
+    /* border: 2px solid rgb(3, 3, 1); */
+    background-color: #6b5b95;
+    color: whitesmoke;
+    border-radius: 10rem;
+}
+.tabs-heading{  
+    font-weight: bold !important ;
+    font-size: 2rem !important;
+    color: #326fa8;
+    /* color: "accent"; */
+}    
+.card-layout{
+    position: relative;
+    background-color: #f4fade;
+    border:.1rem dashed black ;
+    width: 90%;
+    height: 100%;
+    margin-bottom: 1rem;
+}
+.overlay{
+    width : 100vw;
+    height: 100vh;
+}
+.hover-layout{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    width: 100%;
+}
+.card-layout:hover .hover-layout{
+    display: block;
+    background-color: rgba(183, 212, 174 , 0.3);
+} 
+.card-layout:hover .hover{
+    opacity: 1;
+}
+
+.hover{
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.5s ease;
+
+}
+
+
+.alert-error{
+        /* border: 2px solid red;  #cfd1c5*/
+    background-color: #4b56b4;
+    color: whitesmoke;
+    border-radius: 8px;
+  
+}
+.mat-tab-label{
+    color: white !important;
+}
+
+.alert , .mat-simple-snackbar{
+    justify-content: center;
+
+}
+    
+  
+    
